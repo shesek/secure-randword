@@ -1,0 +1,13 @@
+{
+  "name": "secure-randword",
+  "version": "0.1.1",
+  "description": "Generate random words using a CSPRNG",
+  "main": "index.js",
+  "repository": "https://github.com/shesek/randwords",
+  "keywords": [ "random", "words", "word", "word list" ],
+  "author": "Nadav Ivgi",
+  "license": "MIT",
+  "dependencies": {
+    "secure-random": "^0.2.1"
+  }
+}
