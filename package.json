@@ -1,6 +1,6 @@
 {
   "name": "secure-randword",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Generate random words using a CSPRNG",
   "main": "index.js",
   "repository": "https://github.com/shesek/randwords",
