@@ -3,7 +3,7 @@ var list   = require('./words')
   , m      = 32; // 256^2 / 2048
 
 if (list.length != 2048)
-  throw new Error('This script expected to be used on an 2048 long word list. \
+  throw new Error('This script expects to be used on an 2048 long word list. \
                    Changing the word list requires updating the script.');
 
 function word() {
@@ -16,6 +16,6 @@ module.exports = function(n) {
   if (n == null) return word();
   
   var words = [];
-  for (i=0; i<n; i++) words.push(word());
+  for (var i=0; i<n; i++) words.push(word());
   return words;
 }
